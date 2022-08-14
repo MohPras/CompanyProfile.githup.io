@@ -1,0 +1,81 @@
+/*untuk desktop*/
+@media screen and (max-width: 992px) {
+    .input-cari .button-secondary {
+        width: 120px;
+        font-size: 14px;
+    }
+    .input-cari .button-primary {
+        font-size: 24px;
+    }
+    #rekomendasi {
+        margin-top: 100px;
+    }
+    .button-fitur {
+        width: 100%;
+    }
+    #contact h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+    .card-contact h2 {
+        width: 100%;
+        height: auto;
+        line-height: 42px;
+        font-size: 32px;
+        margin-top: 42px;
+    }
+    .button-primary {
+        display: block;
+        width: 100%;
+    }
+    ..button-secondary {
+        display: block;
+        width: 100%;
+    }
+/*untuk hp landsace/tablet*/
+@media screen and (max-width: 576px) {
+    /*HIRO*/
+    .hiro-tagline h1 {
+        line-height: 52px;
+    }
+    .img-hiro {
+        width: 75%;
+        height: auto;
+    }
+    /*Layanan*/
+    .layanan h2 {
+        font-size: 34px;
+    }
+    .sub-title {
+        font-size: 16px;
+    }
+    .card-layanan {
+        margin: 15px 0;
+    }
+    /*Search Barr*/
+    .search h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .search-pg {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .input-cari .button-secondary {
+        width: 50%;
+        height: 60px;
+        border-radius: 0px;
+    }
+    .input-cari .button-primary {
+        height: 60px;
+        width: 30%;
+        font-size: 20px;
+        border-radius: 0 0 10px 0;
+    }
+    .input-cari .form-control {
+        height: 60px !important; 
+    }
+/*unutk smartphone*/
+@media screen and (max-width: 350px) {
+
+}
